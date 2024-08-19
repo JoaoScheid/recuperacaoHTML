@@ -47,7 +47,8 @@ ul{
     justify-content: center;
     align-items: center;
     background-image: url(/Imagens/coffee-banner.png);
-    background-size:100% 600px;
+    background-size:cover;
+    background-position: top center;
     background-repeat: no-repeat;
 }
 
@@ -142,7 +143,8 @@ ul{
 
 .section-3{
     background-image: url(Imagens/maquina-expresso.jpg);
-    background-size: 100% 450px;
+    background-size: cover;
+    background-position: top center;
     background-repeat: no-repeat;
     height: 450px;
     display: flex;
@@ -204,6 +206,7 @@ ul{
     justify-content: center;
     background-image: url(/Imagens/background-footer.jpg);
     background-size: cover;
+    background-position: top center;
 }
 
 #text-footer{
@@ -264,11 +267,13 @@ ul{
     }
 
     ul{
+        gap: 30px;
         margin: 0px 270px 0px 40px;
     }
 
     #redes-1{
         display: flex;
+        justify-content: end;
         gap: 20px;
         order: 3;
         margin-left: 230px;
@@ -291,7 +296,7 @@ ul{
 
     .section-1{
         padding-top: 10px;
-        padding-right: 250px;
+        padding-right: 400px;
     }
 
     .tittle-marcelus{
@@ -299,7 +304,7 @@ ul{
     }
 
     .text{
-        width: 50%;
+        width: 70%;
         font-size: 0.9rem;
     }
 
@@ -333,7 +338,15 @@ ul{
 
     .footer{
         padding-top: 120px;
-        padding-bottom: 100px;
+        padding-bottom: 120px;
         gap: 70px;
+    }
+
+    .section-3{
+        height: 510px;
+    }
+
+    .footer-3{
+       margin-top: 50px;
     }
 }
